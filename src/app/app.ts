@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ListEmpleados } from './features/empleados/pages/list-empleados/list-empleados';
+import { CustomInput } from './shared/components/custom-input/custom-input';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ListEmpleados],
+  imports: [RouterOutlet, CustomInput],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
